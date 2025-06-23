@@ -33,7 +33,6 @@
     <id>urn:uuid:ob-287</id>
     <updated>2025-06-18T00:00:00Z</updated>
     <summary type="html">
-      <![CDATA[
         <p><strong>Datum:</strong> 2025-06-18</p>
         <p>Fokusblocket är nu en lista av fokusinnehåll med fallback till gammal struktur. Stöd för video tillagt.</p>
         <p><strong>Valideringskrav:</strong></p>
@@ -47,7 +46,6 @@
           </li>
           <li>Bild och Tema krävs</li>
         </ul>
-      ]]>
     </summary>
   </entry>
 
