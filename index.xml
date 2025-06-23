@@ -6,118 +6,189 @@
   <entry>
     <title>OB-286 Herobanner ny design</title>
     <id>urn:uuid:ob-286</id>
-    <updated>2025-06-17T09:56:00Z</updated>
+    <updated>2025-06-18T00:00:00Z</updated>
     <summary type="html">
-      Det gamla Herobanner-blocket är nu fyra nya individuella block. Tre används på startsida, ett på landningssida för kategorier, men alla fyra kan användas fritt. Ny blockyta "Banner" introducerad.
-      Valideringsregler:
-      - Subtitle: max 35 tecken
-      - Title: max 28 tecken
-      - Preamble: max 45 tecken
-      - Länklista, WebTagText/Image och Tema krävs beroende på variant
+      <![CDATA[
+        <p><strong>Datum:</strong> 2025-06-18</p>
+        <p>Det gamla Herobanner-blocket är nu fyra nya individuella block:</p>
+        <ul>
+          <li>Tre används på startsida</li>
+          <li>Ett används på landningssida för kategorier</li>
+          <li>Alla fyra kan användas fritt på andra mallar</li>
+        </ul>
+        <p>Ny blockyta <strong>"Banner"</strong> introducerad.</p>
+        <p><strong>Valideringsregler:</strong></p>
+        <ul>
+          <li>Subtitle: max 35 tecken</li>
+          <li>Title: max 28 tecken</li>
+          <li>Preamble: max 45 tecken</li>
+          <li>Länklista, WebTagText/Image och Tema krävs beroende på variant</li>
+        </ul>
+      ]]>
     </summary>
   </entry>
 
   <entry>
     <title>OB-287 Fokusblock ny design</title>
     <id>urn:uuid:ob-287</id>
-    <updated>2025-06-17T10:02:00Z</updated>
+    <updated>2025-06-18T00:00:00Z</updated>
     <summary type="html">
-      Fokusblocket är nu en lista av fokusinnehåll. Fallback till gamla strukturen finns temporärt. Stöd för video har lagts till.
-      Validering:
-      - Minst ett, max två innehåll
-      - Textbegränsningar beroende på antal
-      - Bild och tema krävs
+      <![CDATA[
+        <p><strong>Datum:</strong> 2025-06-18</p>
+        <p>Fokusblocket är nu en lista av fokusinnehåll med fallback till gammal struktur. Stöd för video tillagt.</p>
+        <p><strong>Valideringskrav:</strong></p>
+        <ul>
+          <li>Minst ett, max två fokusinnehåll</li>
+          <li>Text:
+            <ul>
+              <li>Max 130 tecken om två fokusinnehåll</li>
+              <li>Max 170 tecken om ett fokusinnehåll</li>
+            </ul>
+          </li>
+          <li>Bild och Tema krävs</li>
+        </ul>
+      ]]>
     </summary>
   </entry>
 
   <entry>
     <title>OB-289 Produktkort ny design</title>
     <id>urn:uuid:ob-289</id>
-    <updated>2025-06-17T10:03:00Z</updated>
+    <updated>2025-06-18T00:00:00Z</updated>
     <summary type="html">
-      Ny design för produktkort samt tillhörande komponenter (Artikelkort, Kategori-produktlista, Produktlista karusell). Bazaarvoice-betyg har uppdaterats.
+      <![CDATA[
+        <p><strong>Datum:</strong> 2025-06-18</p>
+        <p>Ny design för produktkort samt följande komponenter:</p>
+        <ul>
+          <li>Block – Artikelkort i produktlista</li>
+          <li>Block – Kategori-produktlista</li>
+          <li>Block – Produktlista karusell</li>
+        </ul>
+        <p>Bazaarvoice-betyg uppdaterade via deras portal.</p>
+      ]]>
     </summary>
   </entry>
 
   <entry>
     <title>OB-288 Product pointer</title>
     <id>urn:uuid:ob-288</id>
-    <updated>2025-06-17T10:03:00Z</updated>
+    <updated>2025-06-18T00:00:00Z</updated>
     <summary type="html">
-      Ny design och valideringsregler. Stöd för video.
-      Validering:
-      - Title krävs
-      - Antingen Text eller Preamble (ej båda)
-      - Produktpekare krävs
+      <![CDATA[
+        <p><strong>Datum:</strong> 2025-06-18</p>
+        <p>Nya valideringsregler och stöd för video tillagt.</p>
+        <p><strong>Validering:</strong></p>
+        <ul>
+          <li>Title krävs</li>
+          <li>Text eller Preamble krävs (endast en får ha värde)</li>
+          <li>Produktpekare krävs</li>
+        </ul>
+      ]]>
     </summary>
   </entry>
 
   <entry>
     <title>OB-305 Quicklinks</title>
     <id>urn:uuid:ob-305</id>
-    <updated>2025-06-17T13:05:00Z</updated>
+    <updated>2025-06-18T00:00:00Z</updated>
     <summary type="html">
-      Nya valideringsregler:
-      - Minst en quicklink krävs
-      - Max sju quicklinks tillåtna
+      <![CDATA[
+        <p><strong>Datum:</strong> 2025-06-18</p>
+        <p><strong>Valideringskrav:</strong></p>
+        <ul>
+          <li>Minst en quicklink krävs</li>
+          <li>Max sju quicklinks tillåtna</li>
+        </ul>
+      ]]>
     </summary>
   </entry>
 
   <entry>
     <title>OB-306 Banner (slider)</title>
     <id>urn:uuid:ob-306</id>
-    <updated>2025-06-17T13:07:00Z</updated>
+    <updated>2025-06-18T00:00:00Z</updated>
     <summary type="html">
-      Temporär designuppdatering. Ärver design från nya Herobanner. Inte relaterad till framtida bildkarusell.
+      <![CDATA[
+        <p><strong>Datum:</strong> 2025-06-18</p>
+        <p>Temporär designuppdatering ärvd från nya Herobanner.</p>
+        <p>Ej relaterad till kommande bildkarusell-design.</p>
+      ]]>
     </summary>
   </entry>
 
   <entry>
     <title>OB-320 Videoblock</title>
     <id>urn:uuid:ob-320</id>
-    <updated>2025-06-17T13:11:00Z</updated>
+    <updated>2025-06-18T00:00:00Z</updated>
     <summary type="html">
-      Ny design ärvd från Fokusblock (single). Popup-storlek justerad. Slim-inställning påverkar förhandsvisning. Stöd för video popup.
+      <![CDATA[
+        <p><strong>Datum:</strong> 2025-06-18</p>
+        <p>Videoblocket har ny design från Fokusblock (single).</p>
+        <ul>
+          <li>Popup har mindre standardstorlek</li>
+          <li>Stöd för fullscreen i player</li>
+          <li><strong>Slim-inställning</strong> styr bildstorlek</li>
+        </ul>
+      ]]>
     </summary>
   </entry>
 
   <entry>
     <title>OB-314 Receptbanner</title>
     <id>urn:uuid:ob-314</id>
-    <updated>2025-06-17T13:12:00Z</updated>
+    <updated>2025-06-18T00:00:00Z</updated>
     <summary type="html">
-      Receptbannern ärver utseende från undersidans Herobanner. Stöd för video tillagt via CMS.
+      <![CDATA[
+        <p><strong>Datum:</strong> 2025-06-18</p>
+        <p>Receptbanner på receptsidan ärver nu utseendet från undersidans Herobanner.</p>
+        <p>Stöd för video via CMS tillagt.</p>
+      ]]>
     </summary>
   </entry>
 
   <entry>
     <title>OB-170 Citatblock (nytt block)</title>
     <id>urn:uuid:ob-170</id>
-    <updated>2025-06-17T00:00:00Z</updated>
+    <updated>2025-06-18T00:00:00Z</updated>
     <summary type="html">
-      Ett helt nytt block för citat har introducerats.
+      <![CDATA[
+        <p><strong>Datum:</strong> 2025-06-18</p>
+        <p>Ett helt nytt block för citat har introducerats.</p>
+      ]]>
     </summary>
   </entry>
 
   <entry>
     <title>OB-282 Jämförelseblock ny design</title>
     <id>urn:uuid:ob-282</id>
-    <updated>2025-06-17T00:00:00Z</updated>
+    <updated>2025-06-18T00:00:00Z</updated>
     <summary type="html">
-      Ny design i enlighet med OB-273 UI-uppdateringen.
+      <![CDATA[
+        <p><strong>Datum:</strong> 2025-06-18</p>
+        <p>Ny design enligt UI-uppdatering OB-273.</p>
+      ]]>
     </summary>
   </entry>
 
   <entry>
     <title>Releaseåtgärder och generella valideringskrav</title>
     <id>urn:uuid:release-actions</id>
-    <updated>2025-06-17T00:00:00Z</updated>
+    <updated>2025-06-18T00:00:00Z</updated>
     <summary type="html">
-      - Reviews borttagna från receptsida
-      - Orderexport hämtar nu ordrar från mitten av 2022
-      - Receptbanner stödjer nu Recepttyp med ikon
-      - Nya valideringskrav för Herobanners, Fokus, ProductPointer och Quicklinks.
-      Obs! Innehåll krävs på alla språk – annars avpublicera block från aktuella kanaler.
+      <![CDATA[
+        <p><strong>Datum:</strong> 2025-06-18</p>
+        <ul>
+          <li>Reviews borttagna från receptsidan</li>
+          <li>Orderexport hämtar nu ordrar från mitten av 2022</li>
+          <li>Receptbanner stödjer nu Recepttyp med ikon</li>
+        </ul>
+        <p><strong>Valideringsregler (generellt):</strong></p>
+        <ul>
+          <li>Herobanners, Fokus, ProductPointer och Quicklinks har nya regler</li>
+          <li>Innehåll krävs på alla språk</li>
+          <li>Alternativ: avpublicera block från språk utan innehåll</li>
+        </ul>
+      ]]>
     </summary>
   </entry>
 </feed>
