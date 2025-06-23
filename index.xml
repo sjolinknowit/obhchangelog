@@ -1,23 +1,123 @@
-<feed>
-    <title>OpenBiblio Changelog</title>
-    <link rel="self" type="application/atom+xml" href="index.xml"/>
-    <link rel="alternate" type="text/html" href="index.html"/>
-    <updated>2023-10-01T12:00:00Z</updated>
-    <id>https://example.com/obhchangelog/index.xml</id>
-    
-    <entry>
-        <title>Version 1.2.3 Released</title>
-        <link rel="alternate" type="text/html" href="https://example.com/obhchangelog/1.2.3.html"/>
-        <id>https://example.com/obhchangelog/1.2.3</id>
-        <updated>2023-10-01T12:00:00Z</updated>
-        <summary>Major update with new features and bug fixes.</summary>
-    </entry>
-    
-    <entry>
-        <title>Version 1.2.2 Released</title>
-        <link rel="alternate" type="text/html" href="https://example.com/obhchangelog/1.2.2.html"/>
-        <id>https://example.com/obhchangelog/1.2.2</id>
-        <updated>2023-09-15T12:00:00Z</updated>
-        <summary>Minor update with performance improvements.</summary>
-    </entry>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Release Notes - 2025-06-17</title>
+  <updated>2025-06-17T00:00:00Z</updated>
+  <id>urn:uuid:release-2025-06-17</id>
+
+  <entry>
+    <title>OB-286 Herobanner ny design</title>
+    <id>urn:uuid:ob-286</id>
+    <updated>2025-06-17T09:56:00Z</updated>
+    <description>
+      Det gamla Herobanner-blocket är nu fyra nya individuella block. Tre används på startsida, ett på landningssida för kategorier, men alla fyra kan användas fritt. Ny blockyta "Banner" introducerad.
+      Valideringsregler:
+      - Subtitle: max 35 tecken
+      - Title: max 28 tecken
+      - Preamble: max 45 tecken
+      - Länklista, WebTagText/Image och Tema krävs beroende på variant
+    </description>
+  </entry>
+
+  <entry>
+    <title>OB-287 Fokusblock ny design</title>
+    <id>urn:uuid:ob-287</id>
+    <updated>2025-06-17T10:02:00Z</updated>
+    <description>
+      Fokusblocket är nu en lista av fokusinnehåll. Fallback till gamla strukturen finns temporärt. Stöd för video har lagts till.
+      Validering:
+      - Minst ett, max två innehåll
+      - Textbegränsningar beroende på antal
+      - Bild och tema krävs
+    </description>
+  </entry>
+
+  <entry>
+    <title>OB-289 Produktkort ny design</title>
+    <id>urn:uuid:ob-289</id>
+    <updated>2025-06-17T10:03:00Z</updated>
+    <description>
+      Ny design för produktkort samt tillhörande komponenter (Artikelkort, Kategori-produktlista, Produktlista karusell). Bazaarvoice-betyg har uppdaterats.
+    </description>
+  </entry>
+
+  <entry>
+    <title>OB-288 Product pointer</title>
+    <id>urn:uuid:ob-288</id>
+    <updated>2025-06-17T10:03:00Z</updated>
+    <description>
+      Ny design och valideringsregler. Stöd för video.
+      Validering:
+      - Title krävs
+      - Antingen Text eller Preamble (ej båda)
+      - Produktpekare krävs
+    </description>
+  </entry>
+
+  <entry>
+    <title>OB-305 Quicklinks</title>
+    <id>urn:uuid:ob-305</id>
+    <updated>2025-06-17T13:05:00Z</updated>
+    <description>
+      Nya valideringsregler:
+      - Minst en quicklink krävs
+      - Max sju quicklinks tillåtna
+    </description>
+  </entry>
+
+  <entry>
+    <title>OB-306 Banner (slider)</title>
+    <id>urn:uuid:ob-306</id>
+    <updated>2025-06-17T13:07:00Z</updated>
+    <description>
+      Temporär designuppdatering. Ärver design från nya Herobanner. Inte relaterad till framtida bildkarusell.
+    </description>
+  </entry>
+
+  <entry>
+    <title>OB-320 Videoblock</title>
+    <id>urn:uuid:ob-320</id>
+    <updated>2025-06-17T13:11:00Z</updated>
+    <description>
+      Ny design ärvd från Fokusblock (single). Popup-storlek justerad. Slim-inställning påverkar förhandsvisning. Stöd för video popup.
+    </description>
+  </entry>
+
+  <entry>
+    <title>OB-314 Receptbanner</title>
+    <id>urn:uuid:ob-314</id>
+    <updated>2025-06-17T13:12:00Z</updated>
+    <description>
+      Receptbannern ärver utseende från undersidans Herobanner. Stöd för video tillagt via CMS.
+    </description>
+  </entry>
+
+  <entry>
+    <title>OB-170 Citatblock (nytt block)</title>
+    <id>urn:uuid:ob-170</id>
+    <updated>2025-06-17T00:00:00Z</updated>
+    <description>
+      Ett helt nytt block för citat har introducerats.
+    </description>
+  </entry>
+
+  <entry>
+    <title>OB-282 Jämförelseblock ny design</title>
+    <id>urn:uuid:ob-282</id>
+    <updated>2025-06-17T00:00:00Z</updated>
+    <description>
+      Ny design i enlighet med OB-273 UI-uppdateringen.
+    </description>
+  </entry>
+
+  <entry>
+    <title>Releaseåtgärder och generella valideringskrav</title>
+    <id>urn:uuid:release-actions</id>
+    <updated>2025-06-17T00:00:00Z</updated>
+    <description>
+      - Reviews borttagna från receptsida
+      - Orderexport hämtar nu ordrar från mitten av 2022
+      - Receptbanner stödjer nu Recepttyp med ikon
+      - Nya valideringskrav för Herobanners, Fokus, ProductPointer och Quicklinks.
+      Obs! Innehåll krävs på alla språk – annars avpublicera block från aktuella kanaler.
+    </description>
+  </entry>
 </feed>
